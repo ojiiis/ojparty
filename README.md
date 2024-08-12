@@ -213,9 +213,9 @@ app.listen(304, () => {
 
 ## API Reference
 
-### `ojparty.util()`
+### `ojparty.utill`
 
-The `util` object provides various utility functions:
+The `utill` object provides various utility functions:
 
 - **`parseCookie(data)`**: Parses a cookie string into an object.
 - **`random(type, length)`**: Generates a random string. Type can be `"let"` for letters, `"num"` for numbers, or `"mix"` for alphanumeric characters. Length specifies the string length.
