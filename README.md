@@ -211,39 +211,54 @@ app.listen(304, () => {
 
 ```
 
-API Reference
-ojparty.util()
-The util object provides various utility functions:
+## API Reference
 
-parseCookie(data): Parses a cookie string into an object.
-random(type, length): Generates a random string. Type can be "let" for letters, "num" for numbers, or "mix" for alphanumeric characters. Length specifies the string length.
-range(min, max): Generates a random number between min and max.
-ojparty.forms(req, callback)
+### `ojparty.util()`
+
+The `util` object provides various utility functions:
+
+- **`parseCookie(data)`**: Parses a cookie string into an object.
+- **`random(type, length)`**: Generates a random string. Type can be `"let"` for letters, `"num"` for numbers, or `"mix"` for alphanumeric characters. Length specifies the string length.
+- **`range(min, max)`**: Generates a random number between `min` and `max`.
+
+### `ojparty.forms(req, callback)`
+
 Parses the incoming request to extract files, query parameters, and form data. The extracted data is provided to the callback function.
 
-ojparty.app()
+### `ojparty.app()`
+
 Creates a server application with various HTTP methods:
 
-get(path, callback)
-post(path, callback)
-options(path, callback)
-delete(path, callback)
-Request Object Methods
-req.setSession(key, value): Sets a session variable.
-req.session: Accesses all active sessions.
-req.unsetSession(key): Removes a session variable.
-req.files: Accesses all uploaded files.
-req.body: Accesses form data from a POST request.
-req.query: Accesses URL parameters.
-req.url: Returns the URL without query parameters.
-Response Object Methods
-res.ojp(filePath, data): Writes a response based on an OJP template.
-res.sendFile(filePath): Serves a static file.
-res.send(data): Sends a response with the specified data.
-Middleware
-use(callback): Adds middleware to be executed before the app initializes.
-listen(port, callback): Starts the server on the specified port.
-Contributing
+- **`get(path, callback)`**
+- **`post(path, callback)`**
+- **`options(path, callback)`**
+- **`delete(path, callback)`**
+
+### Request Object Methods
+
+- **`req.setSession(key, value)`**: Sets a session variable.
+- **`req.session`**: Accesses all active sessions.
+- **`req.unsetSession(key)`**: Removes a session variable.
+- **`req.files`**: Accesses all uploaded files.
+- **`req.body`**: Accesses form data from a POST request.
+- **`req.query`**: Accesses URL parameters.
+- **`req.url`**: Returns the URL without query parameters.
+
+### Response Object Methods
+
+- **`res.ojp(filePath, data)`**: Writes a response based on an OJP template.
+- **`res.sendFile(filePath)`**: Serves a static file.
+- **`res.send(data)`**: Sends a response with the specified data.
+
+### Middleware
+
+- **`use(callback)`**: Adds middleware to be executed before the app initializes.
+- **`listen(port, callback)`**: Starts the server on the specified port.
+
+## Contributing
+
 If you would like to contribute to OJParty, please fork the repository and submit a pull request.
 
-License
+## License
+
+OJParty is licensed under the MIT License.
