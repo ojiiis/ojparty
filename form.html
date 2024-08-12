@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OjParty form handling example!</title>
+</head>
+<body>
+    <p>OjParty form handling example!</p>
+    <div>
+        <form>
+            <input type="text" name="fullname" placeholder="fullname" value="Samuel"><br><br>
+            <input type="text" name="username" placeholder="username" value="ojParty"><br><br>
+            <input type="email" name="email" placeholder="email" value="samuel@ojparty.com"><br><br>
+            <input type="password" name="password" placeholder="password" value="123456"><br><br>
+            <input type="submit" name="submit" value="regiser"><br>
+        </form>
+    </div>
+    <script>
+        document.getElementsByTagName("form")[0].onsubmit = async (e) =>{
+                e.preventDefault();
+                const data = new FormData(document.getElementsByTagName("form")[0]);
+                const a = await fetch('http://localhost:302',{
+            method:"POST",
+            body:data
+            });  
+            const text =  await a.text();
+             console.log(text)
+           
+     }
+
+    </script>
+</body>
+</html>
