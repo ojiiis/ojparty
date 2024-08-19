@@ -2,7 +2,7 @@
 
 OJParty is a lightweight, yet powerful Node.js framework that extends the capabilities of the default HTTP module. It offers features similar to Express.js while adding native support for session management, file upload handling, and utility functions. This framework is designed to provide a more integrated and developer-friendly experience out of the box.
 
-###The Dynamic, Versatile, and Developer-Friendly Web Framework for Node.js
+### The Dynamic, Versatile, and Developer-Friendly Web Framework for Node.js
 
 **OJParty** is a powerful, flexible, and unopinionated Node.js framework, designed to give developers the freedom to build applications their way.
 
