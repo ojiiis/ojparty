@@ -2,6 +2,35 @@
 
 OJParty is a lightweight, yet powerful Node.js framework that extends the capabilities of the default HTTP module. It offers features similar to Express.js while adding native support for session management, file upload handling, and utility functions. This framework is designed to provide a more integrated and developer-friendly experience out of the box.
 
+# OJParty: The Dynamic, Versatile, and Developer-Friendly Web Framework for Node.js
+
+**OJParty** is a powerful, flexible, and unopinionated Node.js framework, designed to give developers the freedom to build applications their way.
+
+## 📚 Documentation and Release Updates
+
+Stay updated with OJParty's ever-evolving [API documentation](#) and keep an eye on our [release history](#) for the latest features and improvements.
+
+## 🌐 Web Applications
+
+OJParty is engineered for developers who need more than just the basics. Whether you're working on web or mobile applications, OJParty provides a comprehensive set of tools to streamline your development process, including session management, dynamic templating, and more.
+
+## 🔌 APIs
+
+Building APIs is straightforward with OJParty. Utilize our extensive HTTP utility functions and customizable middleware to create powerful, scalable APIs with ease.
+
+## 🚀 Performance
+
+OJParty is designed to be lightweight, delivering essential web application features while preserving the raw power and flexibility of Node.js. The framework ensures that you can leverage the full capabilities of Node.js without any unnecessary overhead.
+
+## 🔧 Middleware
+
+OJParty offers a flexible routing system with minimal core features, allowing you to easily extend its functionality. With support for file uploads, session management, and MySQL database integration, OJParty is adaptable to your specific needs without imposing rigid constraints.
+
+---
+
+Explore the full potential of OJParty by [getting started](#) with your next Node.js project today!
+
+
 ## Features
 
 - **Session Management**: Seamlessly manage user sessions across your application.
